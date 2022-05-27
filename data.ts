@@ -116,12 +116,13 @@ export const projects: IProject[] = [
   {
     id: 1,
     category: ["react"],
-    deployed_url: "https://igalvilensky.github.io/Portfolio-with-Sass/",
+    deployed_url: "https://www.elektrotransporter-vergleich.de/",
     description: "Portfolio with vanila java script",
-    github_url: "https://igalvilensky.github.io/Portfolio-with-Sass/",
-    image_path: "/images/portfolio-project.jpg",
-    tech_tag: ["react", "html", "scss"],
-    name: "Portfolio",
+    github_url:
+      "https://github.com/ari-motors-team/elektrotransporter-vergleich",
+    image_path: "/images/etv.png",
+    tech_tag: ["react", "html", "tailwind", "next", "netlify"],
+    name: "Elektrotransporter-Vergleich Portal",
   },
   {
     id: 2,
