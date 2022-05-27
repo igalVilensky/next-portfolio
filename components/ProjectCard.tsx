@@ -60,19 +60,21 @@ const ProjectCard: FunctionComponent<{
             </motion.div>
 
             <motion.div
-              className="flex justify-center my-4 space-x-3"
+              className="flex justify-center my-4 space-x-3 "
               variants={fadeInUp}
             >
               <a
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
                 href={github_url}
-              ></a>
-              <AiFillGithub /> <span>Github</span>
+              >
+                <AiFillGithub /> <span>Github</span>
+              </a>
               <a
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
                 href={deployed_url}
-              ></a>
-              <AiFillProject /> <span>Project</span>
+              >
+                <AiFillProject /> <span>Project</span>
+              </a>
             </motion.div>
           </motion.div>
           <motion.div
