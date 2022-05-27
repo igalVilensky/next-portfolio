@@ -12,13 +12,13 @@ const Sidebar = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
   return (
-    <div className="">
+    <div className="w-full">
       <Image
         src={avatar}
         alt="user avatar"
         className="mx-auto border-4 rounded-full border-purpleCustom border-r-yellowCustom"
-        height="128"
-        width="128"
+        height={128}
+        width={128}
         layout="intrinsic"
         quality={100}
       />
