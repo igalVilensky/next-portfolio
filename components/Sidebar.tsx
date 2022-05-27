@@ -1,9 +1,10 @@
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import { useTheme } from "next-themes";
 import avatar from "../public/images/profileAvatar.jpg";
 import Image from "next/image";
+
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
 
@@ -29,21 +30,21 @@ const Sidebar = () => {
       </p>
       <a
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200"
-        href="/asset/Igal_Vilensky_CV.pdf"
-        download="Igal_Vilensky_CV.pdf"
+        href="images/IGAL VILENSKY.jpg"
+        download="IGAL VILENSKY.jpg"
       >
         <GiTie className="w-6 h-6" />
         Download Resume
       </a>
       {/* SOCIAL ICONS */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-blue-600 dark:text-greenCustom md:w-full">
-        <a href="">
-          <AiFillYoutube className="w-8 h-8 cursor-pointer" />
+        <a href="https://www.facebook.com/afawefaw4496546464/" target="_blank">
+          <AiFillFacebook className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="">
+        <a href="https://github.com/igalVilensky" target="_blank">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/igalvilensky/" target="_blank">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
@@ -57,12 +58,12 @@ const Sidebar = () => {
         <p className="my-2">+49 178 309 94 33</p>
       </div>
       {/* EMAIL BUTTON */}
-      <button
-        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-blue-600 to-greenCustom focus:outline-none"
-        onClick={() => window.open("mailto:vilenskyigal@gmail.com")}
-      >
-        Email Me
+      <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-blue-600 to-greenCustom focus:outline-none">
+        <a href="mailto:vilenskyigal@gmail.com" target="_blank">
+          Email Me
+        </a>
       </button>
+
       <button
         className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-blue-600 to-greenCustom"
         onClick={changeTheme}
