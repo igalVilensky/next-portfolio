@@ -7,6 +7,7 @@ import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 import { motion } from "framer-motion";
 import { fadeInUp, routeFadeIn, stagger } from "../animations";
+import Head from "next/head";
 
 const index = ({ endpoint }) => {
   // console.log("client", services);
@@ -20,6 +21,9 @@ const index = ({ endpoint }) => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Igal Vilensky | Portfolio</title>
+      </Head>
       <h5 className="my-3 font-medium">
         Junior Full Stack Developer (MongoDB, Express, React and Node.js) with a
         passion for creative solutions. Dedicated to learning additional

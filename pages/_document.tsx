@@ -10,6 +10,11 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
           rel="stylesheet"
         />
+        <meta name="description" content="MERN stack developer" />
+        <meta
+          name="keywords"
+          content="MERN stack developer, Full Stack Web Developer"
+        />
       </Head>
       <body className="bg-gradient-to-r from-blue-600 to-greenCustom dark:from-dark-500 dark:to-dark-700 dark:text-white">
         <Main />
