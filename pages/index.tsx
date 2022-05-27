@@ -24,18 +24,18 @@ const index = ({ endpoint }) => {
       <Head>
         <title>Igal Vilensky | Portfolio</title>
       </Head>
-      <h5 className="my-3 font-medium">
+      <h2 className="my-3 font-medium">
         Junior Full Stack Developer (MongoDB, Express, React and Node.js) with a
         passion for creative solutions. Dedicated to learning additional
         technologies and coding languages. Looking for an entry-level position
         at a great company to be a hard-working asset to any team, to learn,
         grow and develop long-term.
-      </h5>
+      </h2>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 border-white dark:bg-dark-100 dark:border-b-[0.5px] dark:border-t-[0.5px]"
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
-        <h6 className="my-3 text-xl font-bold tracking-wide">What I offer</h6>
+        <h2 className="my-3 text-xl font-bold tracking-wide">What I offer</h2>
         <motion.div
           className="grid gap-6 lg:grid-cols-2"
           variants={stagger}

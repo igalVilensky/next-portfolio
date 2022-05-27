@@ -22,8 +22,8 @@ const Sidebar = () => {
         layout="intrinsic"
         quality={100}
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan text-purpleCustom">
-        <span className="text-yellowCustom">Igal </span>Vilensky
+      <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan text-[#316CEB]">
+        <span className="text-[#BBFC4D]">Igal </span>Vilensky
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
         Web Developer
@@ -42,6 +42,7 @@ const Sidebar = () => {
           href="https://www.facebook.com/afawefaw4496546464/"
           target="_blank"
           rel="noreferrer"
+          aria-label="facebook"
         >
           <AiFillFacebook className="w-8 h-8 cursor-pointer" />
         </a>
@@ -49,6 +50,7 @@ const Sidebar = () => {
           href="https://github.com/igalVilensky"
           target="_blank"
           rel="noreferrer"
+          aria-label="github"
         >
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
@@ -56,6 +58,7 @@ const Sidebar = () => {
           href="https://www.linkedin.com/in/igalvilensky/"
           target="_blank"
           rel="noreferrer"
+          aria-label="linkedin"
         >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
