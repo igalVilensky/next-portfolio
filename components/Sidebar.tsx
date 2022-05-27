@@ -30,7 +30,7 @@ const Sidebar = () => {
       </p>
       <a
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200"
-        href="images/IGAL VILENSKY.jpg"
+        href="/images/IGAL VILENSKY.jpg"
         download="IGAL VILENSKY.jpg"
       >
         <GiTie className="w-6 h-6" />
@@ -38,13 +38,25 @@ const Sidebar = () => {
       </a>
       {/* SOCIAL ICONS */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-blue-600 dark:text-greenCustom md:w-full">
-        <a href="https://www.facebook.com/afawefaw4496546464/" target="_blank">
+        <a
+          href="https://www.facebook.com/afawefaw4496546464/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillFacebook className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://github.com/igalVilensky" target="_blank">
+        <a
+          href="https://github.com/igalVilensky"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.linkedin.com/in/igalvilensky/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/igalvilensky/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
@@ -59,7 +71,11 @@ const Sidebar = () => {
       </div>
       {/* EMAIL BUTTON */}
       <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-blue-600 to-greenCustom focus:outline-none">
-        <a href="mailto:vilenskyigal@gmail.com" target="_blank">
+        <a
+          href="mailto:vilenskyigal@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           Email Me
         </a>
       </button>
