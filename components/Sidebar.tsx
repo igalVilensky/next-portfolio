@@ -17,8 +17,8 @@ const Sidebar = () => {
         src={avatar}
         alt="user avatar"
         className="mx-auto border-4 rounded-full border-purpleCustom border-r-yellowCustom"
-        height={128}
-        width={128}
+        height="128px"
+        width="128px"
         layout="intrinsic"
         quality={100}
       />
