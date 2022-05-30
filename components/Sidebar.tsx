@@ -34,7 +34,7 @@ const Sidebar = () => {
         download="IGAL VILENSKY.jpg"
       >
         <GiTie className="w-6 h-6" />
-        Download Resume
+        Download CV
       </a>
       {/* SOCIAL ICONS */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-blue-600 dark:text-greenCustom md:w-full">
