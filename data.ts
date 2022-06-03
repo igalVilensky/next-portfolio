@@ -138,12 +138,12 @@ export const projects: IProject[] = [
   {
     id: 3,
     category: ["React"],
-    deployed_url: "https://igalvilensky.github.io/Portfolio-with-Sass/",
-    description: "Portfolio with vanila java script",
-    github_url: "https://igalvilensky.github.io/Portfolio-with-Sass/",
-    image_path: "/images/portfolio-project.jpg",
-    tech_tag: ["React", "html", "scss"],
-    name: "Portfolio3",
+    deployed_url: "https://react-quiz-blue.vercel.app/",
+    description: "React/TS Quiz",
+    github_url: "https://github.com/igalVilensky/React-Quiz",
+    image_path: "/images/react-quiz.png",
+    tech_tag: ["React", "html", "TypeScript"],
+    name: "React Quiz",
   },
   {
     id: 4,

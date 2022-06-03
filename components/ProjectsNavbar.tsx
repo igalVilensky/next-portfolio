@@ -7,7 +7,7 @@ const NavItem: FunctionComponent<{
   active: string;
 }> = ({ value, handleFilterCategory, active }) => {
   let className = "cursor-pointer hover:text-blue-600";
-  if (active === value) className += " text-blue-600";
+  if (active === value) className += " text-blue-500";
   return (
     <li className={className} onClick={() => handleFilterCategory(value)}>
       {value}

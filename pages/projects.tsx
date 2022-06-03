@@ -12,8 +12,8 @@ const Projects = () => {
   const [active, setActive] = useState("all");
   const [showDetail, setShowDetail] = useState<number | null>(null);
 
-  const handleFilterCategory = (category: Category | "all") => {
-    if (category === "all") {
+  const handleFilterCategory = (category: Category | "All") => {
+    if (category === "All") {
       setProjects(projectsData);
       setActive(category);
       return;
