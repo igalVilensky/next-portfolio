@@ -31,7 +31,7 @@ const Bar: FunctionComponent<{ data: ISkill }> = ({
         initial="initial"
         animate="animate"
       >
-        <Icon className="mr-3" /> {name}
+        <Icon /* size={20} */ className="mr-3" /> {name}
       </motion.div>
     </div>
   );

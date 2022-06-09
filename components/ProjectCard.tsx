@@ -66,12 +66,16 @@ const ProjectCard: FunctionComponent<{
               <a
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
                 href={github_url}
+                target="_blank"
+                rel="noopener"
               >
                 <AiFillGithub /> <span>Github</span>
               </a>
               <a
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
                 href={deployed_url}
+                target="_blank"
+                rel="noopener"
               >
                 <AiFillProject /> <span>Project</span>
               </a>

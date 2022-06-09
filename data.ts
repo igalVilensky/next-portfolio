@@ -64,7 +64,7 @@ export const languages: ISkill[] = [
   },
   {
     name: "MongoDB",
-    level: "50%",
+    level: "55%",
     Icon: BsCircleFill,
   },
   {
