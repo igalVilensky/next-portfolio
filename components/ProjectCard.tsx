@@ -35,7 +35,7 @@ const ProjectCard: FunctionComponent<{
         height="150"
         layout="responsive"
       />
-      {/*  <img
+      {/*  <img test
         src={image_path}
         alt={name}
         className="cursor-pointer"
