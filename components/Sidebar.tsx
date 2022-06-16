@@ -2,7 +2,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import { useTheme } from "next-themes";
-import avatar from "../public/images/profileAvatar.jpg";
+import avatar from "../public/images/avatarO.jpg";
 import Image from "next/image";
 
 const Sidebar = () => {
@@ -13,15 +13,17 @@ const Sidebar = () => {
   };
   return (
     <div className="w-full">
-      <Image
-        src={avatar}
-        alt="user avatar"
-        className="mx-auto border-4 rounded-full border-purpleCustom border-r-yellowCustom"
-        height="128px"
-        width="128px"
-        layout="intrinsic"
-        quality={100}
-      />
+      <div className="border-2 rounded-full border-[#E5E7EB] w-fit mx-auto flex justify-center items-center">
+        <Image
+          src={avatar}
+          alt="user avatar"
+          className="mx-auto border border-black rounded-full"
+          height="128px"
+          width="128px"
+          layout="intrinsic"
+          quality={100}
+        />
+      </div>
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan text-[#316CEB]">
         <span className="text-[#BBFC4D]">Igal </span>Vilensky
       </h3>

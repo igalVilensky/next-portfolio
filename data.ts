@@ -26,24 +26,24 @@ export const services: IService[] = [
       "Realizing an organization’s API requirements into practical results and understand the stakeholders’ vision for an API...",
     Icon: AiOutlineApi,
   },
-  {
+  /*  {
     title: "Competitive Coding",
     about:
       "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     Icon: MdDeveloperMode,
-  },
+  }, */
   {
     title: "Basic UI/UX Design",
     about:
       "Determine how users interact with products and make sure the overall user satisfaction with a product...",
     Icon: SiAntdesign,
   },
-  {
+  /*  {
     title: "Project Managment",
     about:
       "Planning and organization of a company's resources to move a specific task, event, or duty towards completion...",
     Icon: SiCodeproject,
-  },
+  }, */
 ];
 
 export const languages: ISkill[] = [
@@ -75,6 +75,11 @@ export const languages: ISkill[] = [
   {
     name: "Node.js",
     level: "70%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "TypeScript",
+    level: "65%",
     Icon: BsCircleFill,
   },
 ];

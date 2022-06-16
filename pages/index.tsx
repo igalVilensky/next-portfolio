@@ -25,7 +25,7 @@ const index = ({ endpoint }) => {
         <title>Igal Vilensky | Portfolio</title>
       </Head>
       <h2 className="my-3 font-medium">
-        Junior Full Stack Developer (MongoDB, Express, React and Node.js) with a
+        Full Stack Developer (MongoDB, Express, React and Node.js) with a
         passion for creative solutions. Dedicated to learning additional
         technologies and coding languages. Looking for an entry-level position
         at a great company to be a hard-working asset to any team, to learn,
